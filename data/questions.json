@@ -1,0 +1,82 @@
+[
+  {
+    "id": 1,
+    "type": "multiple_choice",
+    "text": "What does the Factory Method pattern help you achieve?",
+    "options": [
+      "Creates objects without specifying the exact class",
+      "Ensures a class has only one instance",
+      "Provides a simplified interface to a complex subsystem",
+      "Defines a family of algorithms"
+    ],
+    "correctAnswer": 0
+  },
+  {
+    "id": 2,
+    "type": "multiple_choice",
+    "text": "Which pattern hides the complexity of a subsystem?",
+    "options": ["Strategy", "Observer", "Facade", "Singleton"],
+    "correctAnswer": 2
+  },
+  {
+    "id": 3,
+    "type": "multiple_choice",
+    "text": "What problem does the Strategy pattern solve?",
+    "options": [
+      "Decouples an abstraction from its implementation",
+      "Allows changing algorithms at runtime",
+      "Reduces memory usage by sharing objects",
+      "Simplifies traversal of a collection"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 4,
+    "type": "multiple_choice",
+    "text": "Which pattern is typically used to create families of related objects?",
+    "options": ["Factory Method", "Abstract Factory", "Builder", "Prototype"],
+    "correctAnswer": 1
+  },
+  {
+    "id": 5,
+    "type": "multiple_choice",
+    "text": "Which pattern defines the skeleton of an algorithm, letting subclasses override specific steps?",
+    "options": [
+      "Command",
+      "Template Method",
+      "State",
+      "Chain of Responsibility"
+    ],
+    "correctAnswer": 1
+  },
+  {
+    "id": 6,
+    "type": "true_false",
+    "text": "The Singleton pattern ensures a class has only one instance.",
+    "correctAnswer": "true"
+  },
+  {
+    "id": 7,
+    "type": "true_false",
+    "text": "The Observer pattern is used to create objects without specifying the exact class.",
+    "correctAnswer": "false"
+  },
+  {
+    "id": 8,
+    "type": "true_false",
+    "text": "The Facade pattern provides a unified interface to a set of interfaces in a subsystem.",
+    "correctAnswer": "true"
+  },
+  {
+    "id": 9,
+    "type": "short_answer",
+    "text": "Name a creational pattern that uses a single method to create objects of different types.",
+    "correctAnswer": "factory method"
+  },
+  {
+    "id": 10,
+    "type": "short_answer",
+    "text": "What pattern allows an object to alter its behavior when its internal state changes?",
+    "correctAnswer": "state"
+  }
+]
